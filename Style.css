@@ -179,6 +179,10 @@ body {
     transform-style: preserve-3d;
 }
 
+.book-page.page-right.turn {
+    transform: rotateY(180deg);
+}
+
 .book-page .page-front,
 .book-page .page-back {
     position: absolute;
@@ -254,4 +258,9 @@ text-align: center;
     color: var(--second-text-color);
     justify-content: center;
     align-items: center;
+    transition: .5s;
+}
+
+.nextprev-btn:hover {
+    color: var(--main-color);
 }
