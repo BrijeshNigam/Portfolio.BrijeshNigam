@@ -269,3 +269,23 @@ text-align: center;
 .nextprev-btn.back {
     left: 1.5rem;
 }
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.skills-box .skills-content {
+    flex: 1 1 10rem;
+    border: var(--border);
+    border-radius: .5rem;
+    padding: .8rem .5rem 1.1rem;
+    text-align: center;
+}
+
+.skills-content i {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    
+}
